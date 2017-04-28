@@ -1,0 +1,106 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+OPTIONS: author:t c:nil creator:nil d:(not "LOGBOOK") date:t e:t
+#+OPTIONS: email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t
+#+OPTIONS: tags:t tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
+#+TITLE: GrowSome
+#+DATE: <2017-02-23 Thu>
+#+AUTHOR: Zion Team
+#+LANGUAGE: es
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 24.5.2 (Org mode 8.3.5)
+
+#+HTML_HEAD: 
+#+SUBTITLE: Dispositivos Móviles
+#+USE_BUILDS: true
+#+USE_PRETTIFY: true
+#+ENABLE_SLIDEAREAS: true
+#+ENABLE_TOUCH: true
+#+FAVICON: images/Android.png
+#+HASHTAG:
+#+COMPANY:
+#+GOOGLE_PLUS:
+#+TWITTER:
+#+WWW:
+#+GITHUB:
+#+USE_MATHJAX: true
+#+ANALYTICS:
+#+LOGO:
+#+ICON: images/Android.png
+#+HLEVEL:
+
+* Funcionalidad 
+#+BEGIN_CENTER
+- Ingresos
+  + Entradas
+- Gastos
+  + Salidas
+- Categorías
+  + Tipos de Entrada y Salida
+#+END_CENTER
+
+* Navigation Drawer
+
+#+ATTR_HTML: :height 500
+[[file:images/Screenshot_1493359572.png]]
+#+ATTR_HTML: :height 500
+[[file:images/Screenshot_1493359563.png]]
+
+* 
+#+ATTR_HTML: :height 500
+[[file:images/Screenshot_1493359473.png]]
+#+ATTR_HTML: :height 500
+[[file:images/Screenshot_1493359543.png]]
+
+* Ingresos
+#+ATTR_HTML: :height 500
+[[file:images/Screenshot_1493359722.png]]
+#+ATTR_HTML: :height 500
+[[file:images/Screenshot_1493359736.png]]
+#+ATTR_HTML: :height 500
+[[file:images/Screenshot_1493359739.png]]
+
+* Fecha
+#+ATTR_HTML: :height 500
+[[file:images/Screenshot_1493359768.png]]
+
+* Gastos
+#+ATTR_HTML: :height 500
+[[file:images/Screenshot_1493359921.png]]
+#+ATTR_HTML: :height 500
+[[file:images/Screenshot_1493359991.png]]
+
+* Mains
+
+Se tiene para cada una de las principales operaciones su "main"
+que vendría siendo un overview de lo que se ha agregado.
+
+* GrowSome
+#+ATTR_HTML: :height 500
+[[file:images/Screenshot_1493360219.png]]
+#+ATTR_HTML: :height 500
+[[file:images/Screenshot_1493359795.png]]
+
+* Home
+Pantalla de Resumen General
+
+* GrowSome
+#+ATTR_HTML: :height 500
+[[file:images/Screenshot_1493360025.png]]
+#+ATTR_HTML: :height 500
+[[file:images/Screenshot_1493360030.png]]
+#+ATTR_HTML: :height 500
+[[file:images/Screenshot_1493360223.png]]
+
+* The End
+:PROPERTIES:
+  :SLIDE:    segue dark quote
+  :ASIDE:    right bottom
+  :ARTICLE:  flexbox vleft auto-fadein
+  :END:
+
+
+
+
+
+
