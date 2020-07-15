@@ -1,0 +1,5 @@
+#+TITLE: Blog Index
+
+- [[file:post_one.org][Post One]]
+- [[file:post_two.org][Post Two]]
+- [[file:revelaciones.org][revelaciones]]
