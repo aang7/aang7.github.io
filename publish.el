@@ -1,29 +1,122 @@
+;;; package --- summary
+;;; Commentary:
+(require 'package)
+(package-initialize)
+;; (add-to-list 'package-archives '("org" . "https://orgmode.org/elpa/") t)
+;; (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+;; (package-refresh-contents)
+;; (package-install 'htmlize)
+;; (package-install 'org-plus-contrib)
+;; Don't want to invoke insert-shebang locally
+(remove-hook 'find-file-hook 'insert-shebang)
+
+(require 'org)
 (require 'ox-publish)
+;; (require 'htmlize)
+;; (require 'ox-html)
+;; (require 'ox-rss)
+
+;;; Code:
+
+(setq org-confirm-babel-evaluate nil)
+
+
+;; setting to nil, avoids "Author: x" at the bottom
+(setq org-export-with-section-numbers nil
+      org-export-with-smart-quotes t
+      org-export-with-toc nil)
+
+
+(defvar aang-date-format "%b %d, %Y")
+
+
+(setq org-html-divs '((preamble "header" "top")
+                      (content "main" "content")
+                      (postamble "footer" "postamble"))
+      org-html-container-element "section"
+      org-html-metadata-timestamp-format aang-date-format
+      org-html-checkbox-type 'html
+      org-html-html5-fancy t
+      org-html-validation-link t
+      org-html-doctype "html5"
+      org-html-htmlize-output-type 'css
+      org-src-fontify-natively t)
+
+
+(defvar aang-website-html-head
+  "<meta name='viewport' content='width=device-width, initial-scale=1'>
+<!-- UIkit CSS -->
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/css/uikit.min.css' />
+
+<!-- UIkit JS -->
+<script src='https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit-icons.min.js'></script>
+")
+
+(defun aang-website-html-preamble (plist)
+  "PLIST: An entry."
+  ;; Skip adding subtitle to the post if :KEYWORDS don't have 'post' has a
+  ;; keyword
+  (when (string-match-p "post" (format "%s" (plist-get plist :keywords)))
+    (plist-put plist
+	       :subtitle (format "Published on %s by %s."
+				 (org-export-get-date plist aang-date-format)
+				 (car (plist-get plist :author)))))
+
+  ;; Below content will be added anyways
+  "")
+
+
+
+(defvar aang-website-html-postamble
+  "<div class='footer'>
+Copyright © 2020 <a href='mailto:aang.drummer@gmail.com'>Abel Güitian</a> | <a href='https://github.com/aang7/aang7.github.io'>Source</a><br>
+Last updated on %C using %c <br>
+</div>")
+
+
+(defun psachin/org-sitemap-format-entry (entry style project)
+  "Format posts with author and published data in the index page.
+
+ENTRY: file-name
+STYLE:
+PROJECT: `posts in this case."
+  (cond ((not (directory-name-p entry))
+         (format "*[[file:%s][%s]]*
+                 #+HTML: <p class='pubdate'>by %s on %s.</p>"
+                 entry
+                 (org-publish-find-title entry project)
+                 (car (org-publish-find-property entry :author project))
+                 (format-time-string aang-date-format
+                                     (org-publish-find-date entry project))))
+        ((eq style 'tree) (file-name-nondirectory (directory-file-name entry)))
+        (t entry)))
+
 
 (setq org-publish-project-alist
-      '(
-	("posts"
-	 :base-directory "posts/"
+      `(("posts"
+	 :base-directory "posts"
 	 :base-extension "org"
-	 :publishing-directory "public/"
 	 :recursive t
 	 :publishing-function org-html-publish-to-html
-	 :headline-levels 4
+	 :publishing-directory "./public"
 	 :auto-sitemap t
-	 :sitemap-title "Blog Index"
 	 :sitemap-filename "index.org"
+	 :sitemap-title "Blog Index"
+	 :sitemap-format-entry psachin/org-sitemap-format-entry
 	 :sitemap-style list
-	 :author "John Doe"
-	 :email "john.doe@example.com"
-	 :with-creator t)
-	
+	 :sitemap-sort-files anti-chronologically
+	 :html-head-include-scripts t
+         :html-head-include-default-style nil
+	 :html-head ,aang-website-html-head
+	 :html-preamble aang-website-html-preamble
+	 :html-postamble ,aang-website-html-postamble)
 	("css"
 	 :base-directory "css/"
 	 :base-extension "css"
 	 :publishing-directory "public/css"
 	 :publishing-function org-publish-attachment
 	 :recursive t)
-	
 	("static-files"
 	 :base-directory "files/"
 	 :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|jpeg"
@@ -31,8 +124,7 @@
 	 :recursive t
 	 :publishing-function org-publish-attachment
 	 )
-	
-	("all" :components ("posts" "css" "static-files"))
-	
-	)
-      )
+	("all" :components ("posts" "css" "static-files"))))
+
+(provide 'publish)
+;;; publish.el ends here

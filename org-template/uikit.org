@@ -1,6 +1,7 @@
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../css/site.css" />
 #+HTML_HEAD:<!-- UIkit CSS -->
-#+HTML_HEAD:<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/css/uikit.min.css' />
+#+HTML_HEAD: <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/css/uikit.min.css' />
+#+HTML_HEAD: <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;1,500&display=swap" rel="stylesheet">
 #+HTML_HEAD:<!-- UIkit JS -->
 #+HTML_HEAD:<script src='https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit.min.js'></script>
 #+HTML_HEAD:<script src='https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit-icons.min.js'></script>
+

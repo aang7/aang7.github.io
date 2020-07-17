@@ -1,26 +1,28 @@
 #+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
 #+OPTIONS: author:t broken-links:nil c:nil creator:nil
-#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:nil
+#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
 #+OPTIONS: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
 #+OPTIONS: timestamp:t title:t toc:t todo:t |:t
 #+TITLE: Revelaciones
-#+DATE: <2020-07-05 Sun>
+#+DATE: <2020-07-16 Thu>
 #+AUTHOR: aang
 #+EMAIL: aang@aanglap
-#+LANGUAGE: en
+#+LANGUAGE: es
 #+SELECT_TAGS: export
 #+EXCLUDE_TAGS: noexport
 #+CREATOR: Emacs 26.3 (Org mode 9.1.9)
-
 #+SETUPFILE: ../org-template/style.org
-#+EXCLUDE_TAGS: noexport
 
+
+#+HTML: <hr class="uk-divider-icon">
+#+HTML: <article class="uk-section uk-section-default uk-container">
 
 * Capítulo 16
-  
+
+
   - Los malajím salen a derramar las 7 copas de la _justa_ ira de Dios.
     
-  Las 7 copas:
+ *Las 7 copas*:
    1. Se desata una ulcerá terrible que constagia a todos los hombres que tienen el código del nombre de la bestia. (ver. 2)
    2. El mar se convierte en sangre, y toda criatura que vive en el mar muere. (ver. 3)
    3. Se derrama la copa sobre los ríos y manantiales y se vuelven  sangre. (ver. 4)
@@ -36,12 +38,59 @@
     
 * Las fiestas solemnes
 
-  
   #+CAPTION: Notas en el pizarrón
-  #+ATTR_HTML: :class center no-border  :width 40% :height
+  #+ATTR_HTML: :class center no-border uk-align-center uk-image  :width 40% :height
   [[file:../files/WhatsApp%20Image%202020-07-05%20at%206.06.12%20PM.jpeg]]
 
+
   #+CAPTION: Calendario hebreo
-  #+ATTR_HTML: :class center no-border :width 40% :height
+  #+ATTR_HTML: :class center no-border uk-align-center uk-image  :width 40% :height	
   [[file:../files/a5aa828eafc50ef6e3c1385e4e142fed.jpg]]
   
+
+#+HTML: </article>
+
+
+#+BEGIN_SRC emacs-lisp :exports results  :results none :eval
+
+  (defun my-html-body-onload-filter (output backend info)
+    "Add class to<body>  tag, if any."
+    (when (and (eq backend 'html)
+	       (string-match "<body>\n" output))
+      (replace-match "<body class='uk-container-small uk-align-center uk-text-justify'> \n" nil nil output)))
+
+  (defun my-h-body-onload-filter (output backend info)
+    "Add my onload attribute to<body>  tag, if any."
+    (when (and (eq backend 'html)
+	       (string-match "<body>\n" output))
+      (replace-match "<body class='uk-section uk-container .uk-h1 .uk-h2'> \n" nil nil output)))
+
+  (defun my-ul-body-onload-filter (output backend info)
+    "Add my onload attribute to<body>  tag, if any."
+    (when (and (eq backend 'html)
+	       (string-match "<ul class=\"org-ul\">\n" output))
+      (replace-match "<ul class='uk-list uk-list-disc uk-list-emphasis'> \n" nil nil output)))
+
+  (defun my-ol-body-onload-filter (output backend info)
+    "Add my onload attribute to<body>  tag, if any."
+    (when (and (eq backend 'html)
+	       (string-match "<ol class=\"org-ol\">\n" output))
+      (replace-match "<ol class='uk-list uk-list-large uk-list-disc'> \n" nil nil output)))
+
+
+  (add-to-list 'org-export-filter-final-output-functions
+	       'my-html-body-onload-filter)
+
+  (add-to-list 'org-export-filter-final-output-functions
+	       'my-ul-body-onload-filter)
+
+  (add-to-list 'org-export-filter-final-output-functions
+	       'my-ol-body-onload-filter)
+
+
+
+
+
+
+#+END_SRC
+

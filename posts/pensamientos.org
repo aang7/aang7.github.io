@@ -1,4 +1,5 @@
-
+#+SETUPFILE: ../org-template/normalize.org
+#+SETUPFILE: ../org-template/uikit.org
 
 * Seguir sin mirar atrás
 
@@ -14,5 +15,3 @@
 * Firme y perseverante
 
 * Lealtad, Honor, Justicia
-
-* 
