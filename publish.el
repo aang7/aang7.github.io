@@ -69,7 +69,9 @@
 
 
 (defvar aang-website-html-postamble
-  "<div class='footer'>
+  "
+<div class='footer'>
+<hr>
 Copyright © 2020 <a href='mailto:aang.drummer@gmail.com'>Abel Güitian</a> | <a href='https://github.com/aang7/aang7.github.io'>Source</a><br>
 Last updated on %C using %c <br>
 </div>")
@@ -93,12 +95,52 @@ PROJECT: `posts in this case."
         (t entry)))
 
 
+
+
+
+;; aang stuff
+
+
+(defun wrap-img-tags ()
+  "Experimenting.  Ver 2."
+  (defvar text-to-search "<img src=\"")
+  (goto-char (point-min))
+  (cl-loop repeat (how-many text-to-search)  do ;; this is like a for loop
+	  	  
+	   (search-forward "<img src=\"")
+	   (setq x-start (point))
+	   (search-forward "\"")
+	   (backward-char)
+    	   (setq x-end (point))
+    	   (kill-ring-save x-start x-end)
+    	   (beginning-of-line) ;open line above two times
+    	   (insert (format "\n<div uk-lightbox=\"animation: slide\">
+     <a href=\"%s\">\n" (car kill-ring)))
+	   (indent-for-tab-command)
+	   (forward-line)
+	   (insert (format "</a>\n</div>"))
+	   ;; (indent-region (point-min) (point-max) nil)
+	   ))
+
+
+(defun org-blog-publish-to-html (plist filename pub-dir)
+  "Same as `org-html-publish-to-html' but modifies html before finishing."
+  (let ((file-path (org-html-publish-to-html plist filename pub-dir)))
+    (with-current-buffer (find-file-noselect file-path)
+      (wrap-img-tags);; aqui va la funcion de img
+      (save-buffer)
+      (kill-buffer))
+    file-path))
+
+;; ends aang stuff
+
+
 (setq org-publish-project-alist
       `(("posts"
 	 :base-directory "posts"
 	 :base-extension "org"
 	 :recursive t
-	 :publishing-function org-html-publish-to-html
+	 :publishing-function org-blog-publish-to-html ;; org-html-publish-to-html
 	 :publishing-directory "./public"
 	 :auto-sitemap t
 	 :sitemap-filename "index.org"

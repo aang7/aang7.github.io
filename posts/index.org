@@ -1,5 +1,9 @@
 #+TITLE: Blog Index
 
+- *[[file:otro.org][otro]]*
+  #+html: <p class='pubdate'>by aang on Jul 18, 2020.</p>
+- *[[file:alducin.org][alducin]]*
+  #+html: <p class='pubdate'>by aang on Jul 18, 2020.</p>
 - *[[file:pensamientos.org][pensamientos]]*
   #+html: <p class='pubdate'>by aang on Jul 15, 2020.</p>
 - *[[file:revelaciones.org][Revelaciones]]*

@@ -13,12 +13,12 @@
 #+CREATOR: Emacs 26.3 (Org mode 9.1.9)
 #+SETUPFILE: ../org-template/style.org
 
+#+MACRO: imglnk @@html:<div uk-lightbox="animation: slide"><a href=$1><img src=$2></a> </div>@@ 
 
 #+HTML: <hr class="uk-divider-icon">
 #+HTML: <article class="uk-section uk-section-default uk-container">
 
 * Capítulo 16
-
 
   - Los malajím salen a derramar las 7 copas de la _justa_ ira de Dios.
     
@@ -38,6 +38,7 @@
     
 * Las fiestas solemnes
 
+
   #+CAPTION: Notas en el pizarrón
   #+ATTR_HTML: :class center no-border uk-align-center uk-image  :width 40% :height
   [[file:../files/WhatsApp%20Image%202020-07-05%20at%206.06.12%20PM.jpeg]]
@@ -46,7 +47,38 @@
   #+CAPTION: Calendario hebreo
   #+ATTR_HTML: :class center no-border uk-align-center uk-image  :width 40% :height	
   [[file:../files/a5aa828eafc50ef6e3c1385e4e142fed.jpg]]
-  
+
+
+#+BEGIN_COMMENT
+  This is an image link: {{{imglnk("../files/a5aa828eafc50ef6e3c1385e4e142fed.jpg","../files/a5aa828eafc50ef6e3c1385e4e142fed.jpg")}}}
+  This is another image link: {{{imglnk("../files/WhatsApp Image 2020-07-05 at 6.06.12 PM.jpeg","../files/WhatsApp Image 2020-07-05 at 6.06.12 PM.jpeg")}}}
+  This is an image link: {{{imglnk("https://images.unsplash.com/photo-1501619757722-90657a99803b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80","https://images.unsplash.com/photo-1501619757722-90657a99803b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80")}}}
+  This is an image link: {{{imglnk("https://getuikit.com/docs/images/photo.jpg","https://getuikit.com/docs/images/photo.jpg")}}}
+
+#+END_COMMENT
+
+
+
+#+BEGIN_SRC C :eval
+  #include<stdio.h>
+
+
+  int main() {
+    int i = 0;
+    int count = 0;
+    for (i = 2; i <= 13; i++) {
+      printf("%d\n", i);
+      count++;
+    }
+
+    printf("total %d\n", count);
+
+
+  }
+#+END_SRC
+
+
+
 
 #+HTML: </article>
 
@@ -57,7 +89,9 @@
     "Add class to<body>  tag, if any."
     (when (and (eq backend 'html)
 	       (string-match "<body>\n" output))
-      (replace-match "<body class='uk-container-small uk-align-center uk-text-justify'> \n" nil nil output)))
+      (replace-match "<body class='uk-container-small uk-align-center uk-text-justify'> \n" nil nil output)
+      )
+    )
 
   (defun my-h-body-onload-filter (output backend info)
     "Add my onload attribute to<body>  tag, if any."
@@ -88,8 +122,17 @@
 	       'my-ol-body-onload-filter)
 
 
+  (defun xe (output backend info)
+    (when ((eq backend 'html)
+	   (search-forward "<img src=\"")
+	   (defvar x-start (point))
+	   (search-forward "\"")
+	   (backward-char)
+	   (defvar x-end (point))
+	   (kill-ring-save x-start x-end)
 
-
+	   ))
+    )
 
 
 #+END_SRC
