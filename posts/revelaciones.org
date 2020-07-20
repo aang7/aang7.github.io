@@ -1,6 +1,6 @@
 #+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
 #+OPTIONS: author:t broken-links:nil c:nil creator:nil
-#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:nil
 #+OPTIONS: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
 #+OPTIONS: timestamp:t title:t toc:t todo:t |:t
 #+TITLE: Revelaciones
@@ -16,7 +16,7 @@
 #+MACRO: imglnk @@html:<div uk-lightbox="animation: slide"><a href=$1><img src=$2></a> </div>@@ 
 
 #+HTML: <hr class="uk-divider-icon">
-#+HTML: <article class="uk-section uk-section-default uk-container">
+#+HTML: <article >
 
 * Capítulo 16
 
@@ -37,6 +37,7 @@
 
     
 * Las fiestas solemnes
+
 
 
   #+CAPTION: Notas en el pizarrón
@@ -82,8 +83,7 @@
 
 #+HTML: </article>
 
-
-#+BEGIN_SRC emacs-lisp :exports results  :results none :eval
+#+BEGIN_SRC emacs-lisp :exports none  :results none :eval
 
   (defun my-html-body-onload-filter (output backend info)
     "Add class to<body>  tag, if any."
@@ -133,7 +133,6 @@
 
 	   ))
     )
-
 
 #+END_SRC
 

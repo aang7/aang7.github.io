@@ -2,12 +2,10 @@
 
 - *[[file:otro.org][otro]]*
   #+html: <p class='pubdate'>by aang on Jul 18, 2020.</p>
-- *[[file:alducin.org][alducin]]*
-  #+html: <p class='pubdate'>by aang on Jul 18, 2020.</p>
+- *[[file:revelaciones.org][Revelaciones]]*
+  #+html: <p class='pubdate'>by aang on Jul 16, 2020.</p>
 - *[[file:pensamientos.org][pensamientos]]*
   #+html: <p class='pubdate'>by aang on Jul 15, 2020.</p>
-- *[[file:revelaciones.org][Revelaciones]]*
-  #+html: <p class='pubdate'>by aang on Jul 05, 2020.</p>
 - *[[file:post_one.org][Post One]]*
   #+html: <p class='pubdate'>by aang on Feb 10, 2020.</p>
 - *[[file:post_two.org][Post Two]]*

@@ -12,8 +12,8 @@
 
 (require 'org)
 (require 'ox-publish)
-;; (require 'htmlize)
-;; (require 'ox-html)
+(require 'htmlize)
+(require 'ox-html)
 ;; (require 'ox-rss)
 
 ;;; Code:
@@ -51,6 +51,8 @@
 <!-- UIkit JS -->
 <script src='https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit.min.js'></script>
 <script src='https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit-icons.min.js'></script>
+<!-- own little style -->
+<link rel='stylesheet' type='text/css' href='../css/site.css' />
 ")
 
 (defun aang-website-html-preamble (plist)
@@ -95,32 +97,83 @@ PROJECT: `posts in this case."
         (t entry)))
 
 
-
-
-
 ;; aang stuff
+
+
+(defun my-html-body-onload-filter (output backend info)
+  "Add class to<body>  tag, if any."
+  (when (and (eq backend 'html)
+	     (string-match "<body>\n" output))
+    (replace-match "<body class='uk-container-small uk-align-center uk-text-justify'> \n" nil nil output)
+    ))
 
 
 (defun wrap-img-tags ()
   "Experimenting.  Ver 2."
   (defvar text-to-search "<img src=\"")
   (goto-char (point-min))
-  (cl-loop repeat (how-many text-to-search)  do ;; this is like a for loop
-	  	  
-	   (search-forward "<img src=\"")
-	   (setq x-start (point))
-	   (search-forward "\"")
-	   (backward-char)
-    	   (setq x-end (point))
-    	   (kill-ring-save x-start x-end)
-    	   (beginning-of-line) ;open line above two times
-    	   (insert (format "\n<div uk-lightbox=\"animation: slide\">
+  (setq ntimes (how-many text-to-search))
+  (cl-loop repeat ntimes  do ;; this is like a for loop
+	   (if (> ntimes 0)
+	       (progn
+		 (search-forward "<img src=\"")
+		 (setq x-start (point))
+		 (search-forward "\"")
+		 (backward-char)
+		 (setq x-end (point))
+		 (kill-ring-save x-start x-end)
+		 (beginning-of-line) ;open line above two times
+		 (insert (format "\n<div uk-lightbox=\"animation: slide\">
      <a href=\"%s\">\n" (car kill-ring)))
-	   (indent-for-tab-command)
-	   (forward-line)
-	   (insert (format "</a>\n</div>"))
-	   ;; (indent-region (point-min) (point-max) nil)
+		 (indent-for-tab-command)
+		 (forward-line)
+		 (insert (format "</a>\n</div>"))
+		 ;; (indent-region (point-min) (point-max) nil)
+		 
+		 )
+	     nil
+	     )
 	   ))
+
+
+(defun add-class-to-tag (tag class)
+  "Add class attribute with the class variable value.
+TAG: Tag to modify.
+CLASS: Class in string form to add."
+;  (interactive "sTag:\nsClass:")
+
+  (setq text-to-search (format "<%s" tag))
+  (goto-char (point-min))
+
+  (message (format "%s" text-to-search))
+  (setq does-it-have-class-attribute t)
+  (cl-loop repeat (how-many text-to-search)  do ;; this is like a for loop
+	   
+	   (search-forward text-to-search)
+	   (setq x-start (point))
+
+	   (setq does-it-have-class-attribute (search-forward
+					       "class=\""
+					       (line-end-position)
+					       t ; if fails return nil
+					       ))
+
+	   (if (not does-it-have-class-attribute)
+
+	       (progn
+		 (insert (format " class=\"%s\"" class))
+		 (setq does-it-have-class-attribute nil)
+		 )
+
+	     (progn ; else
+	       (search-forward "\"")
+	       (backward-char)
+	       (insert (format " %s" class))
+
+	       ))
+	   )
+  
+  )
 
 
 (defun org-blog-publish-to-html (plist filename pub-dir)
@@ -128,6 +181,8 @@ PROJECT: `posts in this case."
   (let ((file-path (org-html-publish-to-html plist filename pub-dir)))
     (with-current-buffer (find-file-noselect file-path)
       (wrap-img-tags);; aqui va la funcion de img
+      (add-class-to-tag "h2" "uk-heading-bullet")
+      (add-class-to-tag "section" "uk-card uk-card-body uk-align-center uk-text-justify")
       (save-buffer)
       (kill-buffer))
     file-path))
@@ -148,6 +203,8 @@ PROJECT: `posts in this case."
 	 :sitemap-format-entry psachin/org-sitemap-format-entry
 	 :sitemap-style list
 	 :sitemap-sort-files anti-chronologically
+	 :html-link-home "/"
+         :html-link-up "/"
 	 :html-head-include-scripts t
          :html-head-include-default-style nil
 	 :html-head ,aang-website-html-head
