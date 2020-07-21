@@ -110,30 +110,31 @@ PROJECT: `posts in this case."
 
 (defun wrap-img-tags ()
   "Experimenting.  Ver 2."
-  (defvar text-to-search "<img src=\"")
+  (setq text-to-search-1 "<img src=\"")
   (goto-char (point-min))
-  (setq ntimes (how-many text-to-search))
-  (cl-loop repeat ntimes  do ;; this is like a for loop
-	   (if (> ntimes 0)
-	       (progn
-		 (search-forward "<img src=\"")
-		 (setq x-start (point))
-		 (search-forward "\"")
-		 (backward-char)
-		 (setq x-end (point))
-		 (kill-ring-save x-start x-end)
-		 (beginning-of-line) ;open line above two times
-		 (insert (format "\n<div uk-lightbox=\"animation: slide\">
+  (setq ntimes (count-matches text-to-search-1))
+
+  (if (> ntimes 0)
+      (cl-loop repeat ntimes do ;; this is like a for loop
+
+	   (search-forward "<img src=\"" nil t)
+	   (setq x-start (point))
+	   (search-forward "\"")
+	   (backward-char)
+	   (setq x-end (point))
+	   (kill-ring-save x-start x-end)
+	   (beginning-of-line) ;open line above two times
+	   (insert (format "\n<div uk-lightbox=\"animation: slide\">
      <a href=\"%s\">\n" (car kill-ring)))
-		 (indent-for-tab-command)
-		 (forward-line)
-		 (insert (format "</a>\n</div>"))
-		 ;; (indent-region (point-min) (point-max) nil)
-		 
-		 )
-	     nil
-	     )
-	   ))
+	   (indent-for-tab-command)
+	   (forward-line)
+	   (insert (format "</a>\n</div>"))
+		 	     
+	   )
+      
+      nil
+      )
+  )
 
 
 (defun add-class-to-tag (tag class)
@@ -145,7 +146,6 @@ CLASS: Class in string form to add."
   (setq text-to-search (format "<%s" tag))
   (goto-char (point-min))
 
-  (message (format "%s" text-to-search))
   (setq does-it-have-class-attribute t)
   (cl-loop repeat (how-many text-to-search)  do ;; this is like a for loop
 	   
@@ -183,7 +183,8 @@ CLASS: Class in string form to add."
       (wrap-img-tags);; aqui va la funcion de img
       (add-class-to-tag "h2" "uk-heading-bullet")
       (add-class-to-tag "section" "uk-card uk-card-body uk-align-center uk-text-justify")
-      (save-buffer)
+      (add-class-to-tag "h1" "uk-h2 uk-panel uk-padding uk-background-secondary uk-light uk-margin-left uk-margin-right")
+      (save-buffer)      
       (kill-buffer))
     file-path))
 

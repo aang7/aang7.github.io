@@ -41,12 +41,12 @@
 
 
   #+CAPTION: Notas en el pizarrón
-  #+ATTR_HTML: :class center no-border uk-align-center uk-image  :width 40% :height
+  #+ATTR_HTML: :class center uk-align-center uk-image  :width 40% :height
   [[file:../files/WhatsApp%20Image%202020-07-05%20at%206.06.12%20PM.jpeg]]
 
 
   #+CAPTION: Calendario hebreo
-  #+ATTR_HTML: :class center no-border uk-align-center uk-image  :width 40% :height	
+  #+ATTR_HTML: :class center uk-align-center uk-image  :width 40% :height	
   [[file:../files/a5aa828eafc50ef6e3c1385e4e142fed.jpg]]
 
 
@@ -136,3 +136,5 @@
 
 #+END_SRC
 
+
+#+INCLUDE: "../disquss.inc"

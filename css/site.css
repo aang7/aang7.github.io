@@ -5,3 +5,9 @@ figcaption {
 .title {
     text-align: center;
 }
+
+.verse {
+    font-style: italic;
+    background-color: #F5F5F5;
+    text-color: #494949;
+}
