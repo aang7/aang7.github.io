@@ -1,6 +1,6 @@
 #+TITLE: Blog Index
 
-- *[[file:devotional.org][Daily in His Presence by David Jeremiah - Devotional]]*
+- *[[file:devotional.org][Daily in His Presence - Devotional by David Jeremiah]]*
   #+html: <p class='pubdate'>by aang on Jul 20, 2020.</p>
 - *[[file:otro.org][otro]]*
   #+html: <p class='pubdate'>by aang on Jul 18, 2020.</p>

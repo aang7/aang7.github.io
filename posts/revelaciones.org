@@ -60,7 +60,7 @@
 
 
 
-#+BEGIN_SRC C :eval
+#+BEGIN_SRC C :eval :exports none
   #include<stdio.h>
 
 
