@@ -109,7 +109,6 @@ PROJECT: `posts in this case."
 
 
 (defun wrap-img-tags ()
-  "Experimenting.  Ver 2."
   (setq text-to-search-1 "<img src=\"")
   (goto-char (point-min))
   (setq ntimes (count-matches text-to-search-1))
@@ -123,7 +122,7 @@ PROJECT: `posts in this case."
 	   (backward-char)
 	   (setq x-end (point))
 	   (kill-ring-save x-start x-end)
-	   (beginning-of-line) ;open line above two times
+	   (beginning-of-line)
 	   (insert (format "\n<div uk-lightbox=\"animation: slide\">
      <a href=\"%s\">\n" (car kill-ring)))
 	   (indent-for-tab-command)
