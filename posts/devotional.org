@@ -12,8 +12,6 @@
 #+EXCLUDE_TAGS: noexport
 #+CREATOR: Emacs 26.3 (Org mode 9.1.9)
 #+SETUPFILE: ../org-template/style.org
-
-
 #+HTML: <hr class="uk-divider-icon">
 #+HTML: <article >
 
@@ -94,7 +92,23 @@ Did you hear about the little boy with two lines in a play? He was supposed to s
 
  Jesus called out the religious leaders of His day who asked Him to show them a sign from heaven. He rebuked them, saying they could read the signs of the weather but could not read the signs of the times (Matthew 16:1-4). That wasn't all Jesus said about the signs of the times. When His disciples asked Him what would be the signs (indicators) of the End of the Age, He gave them many (Matthew 24; Luke 21). And the apostle Paul wrote to Timothy about the signs of godlessness in the last days prior to Christ's return-things like loving pleasure more than loving God and a long list of others (2 Timothy 3:1-5). Given the signs that Paul mentions, all of which have to do with personal character and behavior, the world seems headed for a downward crisis. Keep your eyes on the culture and on Christ at the same time. As the one deteriorates, the nearness of the Other increases. Prepare to stand firm and faithful until the end.
 
+ 
+
+* <2020-08-07 Fri> - Solo Luz Suficiente
+
+
+  #+BEGIN_VERSE
+  Tu palabra es una lámpara a mis pies y una luz a mi camino.  
+
+  - *Salmo 119:105*
+  #+END_VERSE
+
+  Las linternas "tácticas" están de moda en la actualidad.  Esas son las linternas pequeñas, generalmente negras, con bombillas LED que llevan muchos miembros del personal militar y del orden público; caben cómodamente en los bolsillos de las chaquetas o en las fundas de los cinturones.  Estas pequeñas luces con sus bombillas LED brillan increíblemente.  Aún así, ninguna linterna iluminará tanto o tan lejos como nos gustaría. Ya sea de día o de noche, nos gusta ver el futuro lo más lejos posible.  Pero no hay luz que nos dé ese tipo de visión.  El equivalente de las linternas modernas en el mundo bíblico era una lámpara de aceite.  Iluminarían, en el mejor de los casos, unos metros por delante de los pasos de uno por la noche.  El salmista usó una lámpara de aceite como metáfora de la Palabra de Dios para decir que se nos da tanta luz como necesitamos o podemos usar.  A veces, todo lo que necesitamos es suficiente luz para dar el siguiente paso: hacer lo siguiente correctamente.  El apóstol Pablo lo llamó caminar por fe, no por vista.  ¿Necesitas luz en tu camino?  Acuda a la Palabra de Dios en busca de luz suficiente para dar el siguiente paso.
 
 
 #+HTML: </article>
 #+INCLUDE: "../disquss.inc"
+
+
+
+Thu Aug  6 21:44:51 CDT 2020

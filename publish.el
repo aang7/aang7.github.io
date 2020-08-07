@@ -2,10 +2,10 @@
 ;;; Commentary:
 (require 'package)
 (package-initialize)
-;; (add-to-list 'package-archives '("org" . "https://orgmode.org/elpa/") t)
-;; (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
-;; (package-refresh-contents)
-;; (package-install 'htmlize)
+(add-to-list 'package-archives '("org" . "https://orgmode.org/elpa/") t)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+(package-refresh-contents)
+(package-install 'htmlize)
 ;; (package-install 'org-plus-contrib)
 ;; Don't want to invoke insert-shebang locally
 (remove-hook 'find-file-hook 'insert-shebang)
@@ -15,9 +15,20 @@
 (require 'htmlize)
 (require 'ox-html)
 ;; (require 'ox-rss)
+(setq system-time-locale "C")
+
+
+;; (setq calendar-week-start-day 1
+;;           calendar-day-name-array ["Domingo" "Lunes" "Martes" "Miércoles" 
+;;                                    "Jueves" "Viernes" "Sábado"]
+;;           calendar-month-name-array ["Gennaio" "Febbraio" "Marzo" "Aprile" "Maggio"
+;;                                      "Giugno" "Luglio" "Agosto" "Settembre" 
+;;                                      "Ottobre" "Novembre" "Dicembre"])
+
+
+
 
 ;;; Code:
-
 (setq org-confirm-babel-evaluate nil)
 
 
@@ -183,7 +194,7 @@ CLASS: Class in string form to add."
       (add-class-to-tag "h2" "uk-heading-bullet")
       (add-class-to-tag "section" "uk-card uk-card-body uk-align-center uk-text-justify")
       (add-class-to-tag "h1" "uk-h2 uk-panel uk-padding uk-background-secondary uk-light uk-margin-left uk-margin-right")
-      (save-buffer)      
+      (save-buffer)
       (kill-buffer))
     file-path))
 
@@ -198,6 +209,7 @@ CLASS: Class in string form to add."
 	 :publishing-function org-blog-publish-to-html ;; org-html-publish-to-html
 	 :publishing-directory "./public"
 	 :auto-sitemap t
+	 :language "es"
 	 :sitemap-filename "index.org"
 	 :sitemap-title "Blog Index"
 	 :sitemap-format-entry psachin/org-sitemap-format-entry
