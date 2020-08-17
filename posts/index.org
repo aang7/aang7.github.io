@@ -1,5 +1,7 @@
 #+TITLE: Blog Index
 
+- *[[file:meditando.org][¿Qué es la verdad?]]*
+  #+HTML: <p class='pubdate'>by Abel Abner Nolasco Güitian on Aug 07, 2020.</p>
 - *[[file:pensamientos.org][pensamientos]]*
   #+HTML: <p class='pubdate'>by aang on Aug 06, 2020.</p>
 - *[[file:devotional.org][Daily in His Presence - Devotional by David Jeremiah]]*

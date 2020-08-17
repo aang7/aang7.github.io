@@ -105,10 +105,8 @@ Did you hear about the little boy with two lines in a play? He was supposed to s
 
   Las linternas "tácticas" están de moda en la actualidad.  Esas son las linternas pequeñas, generalmente negras, con bombillas LED que llevan muchos miembros del personal militar y del orden público; caben cómodamente en los bolsillos de las chaquetas o en las fundas de los cinturones.  Estas pequeñas luces con sus bombillas LED brillan increíblemente.  Aún así, ninguna linterna iluminará tanto o tan lejos como nos gustaría. Ya sea de día o de noche, nos gusta ver el futuro lo más lejos posible.  Pero no hay luz que nos dé ese tipo de visión.  El equivalente de las linternas modernas en el mundo bíblico era una lámpara de aceite.  Iluminarían, en el mejor de los casos, unos metros por delante de los pasos de uno por la noche.  El salmista usó una lámpara de aceite como metáfora de la Palabra de Dios para decir que se nos da tanta luz como necesitamos o podemos usar.  A veces, todo lo que necesitamos es suficiente luz para dar el siguiente paso: hacer lo siguiente correctamente.  El apóstol Pablo lo llamó caminar por fe, no por vista.  ¿Necesitas luz en tu camino?  Acuda a la Palabra de Dios en busca de luz suficiente para dar el siguiente paso.
 
+  
 
 #+HTML: </article>
 #+INCLUDE: "../disquss.inc"
 
-
-
-Thu Aug  6 21:44:51 CDT 2020
