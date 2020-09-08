@@ -4,3 +4,14 @@
 #+HTML_HEAD:<script src='https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit.min.js'></script>
 #+HTML_HEAD:<script src='https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit-icons.min.js'></script>
 #+HTML_HEAD:<link rel="stylesheet" type="text/css" href="../css/site.css" />
+#+BEGIN_COMMENT
+#+HTML_HEAD:<link href="analytics.html" rel="import" />
+#+END_COMMENT
+#+HTML_HEAD: <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177387524-1"></script>
+#+HTML_HEAD: <script>
+#+HTML_HEAD:   window.dataLayer = window.dataLayer || [];
+#+HTML_HEAD:   function gtag(){dataLayer.push(arguments);}
+#+HTML_HEAD:   gtag('js', new Date());
+#+HTML_HEAD: 
+#+HTML_HEAD:   gtag('config', 'UA-177387524-1');
+#+HTML_HEAD: </script>

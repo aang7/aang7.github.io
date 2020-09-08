@@ -64,6 +64,16 @@
 <script src='https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit-icons.min.js'></script>
 <!-- own little style -->
 <link rel='stylesheet' type='text/css' href='../css/site.css' />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src='https://www.googletagmanager.com/gtag/js?id=UA-177387524-1'></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-177387524-1');
+</script>
+
 ")
 
 (defun aang-website-html-preamble (plist)
