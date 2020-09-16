@@ -1,5 +1,7 @@
 #+TITLE: Blog Index
 
+- *[[file:fiestas_solemnes.org][fiestas_solemnes]]*
+  #+HTML: <p class='pubdate'>by aang on Sep 14, 2020.</p>
 - *[[file:pensamientos.org][pensamientos]]*
   #+HTML: <p class='pubdate'>by aang on Sep 07, 2020.</p>
 - *[[file:meditando.org][¿Qué es la verdad?]]*

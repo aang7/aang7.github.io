@@ -23,3 +23,12 @@ figcaption {
 body #content {
   margin-top: 10px;
 }
+
+
+li:not(:last-child) {
+    padding-bottom: 20px;
+}
+
+/* ul { */
+/*     border: 1px solid #f00; */
+/* } */
