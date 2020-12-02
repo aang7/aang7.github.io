@@ -105,7 +105,37 @@ Did you hear about the little boy with two lines in a play? He was supposed to s
 
   Las linternas "tácticas" están de moda en la actualidad.  Esas son las linternas pequeñas, generalmente negras, con bombillas LED que llevan muchos miembros del personal militar y del orden público; caben cómodamente en los bolsillos de las chaquetas o en las fundas de los cinturones.  Estas pequeñas luces con sus bombillas LED brillan increíblemente.  Aún así, ninguna linterna iluminará tanto o tan lejos como nos gustaría. Ya sea de día o de noche, nos gusta ver el futuro lo más lejos posible.  Pero no hay luz que nos dé ese tipo de visión.  El equivalente de las linternas modernas en el mundo bíblico era una lámpara de aceite.  Iluminarían, en el mejor de los casos, unos metros por delante de los pasos de uno por la noche.  El salmista usó una lámpara de aceite como metáfora de la Palabra de Dios para decir que se nos da tanta luz como necesitamos o podemos usar.  A veces, todo lo que necesitamos es suficiente luz para dar el siguiente paso: hacer lo siguiente correctamente.  El apóstol Pablo lo llamó caminar por fe, no por vista.  ¿Necesitas luz en tu camino?  Acuda a la Palabra de Dios en busca de luz suficiente para dar el siguiente paso.
 
+
+*  <2020-09-23 Wed> - El caso del ateo curioso
+
+  #+BEGIN_VERSE
+  /En el principio, Dios creó los cielos y la tierra/.  
+  Genesis 1:1
+  #+END_VERSE
+
+  J. Warner Wallace es un detective de casos sin resolver que era ateo, pero curioso.  Comenzó a investigar la existencia de Dios basándose en la realidad de la creación observable.  
+  Los científicos dicen que el universo nació con una gran explosión, pero Wallace tenía curiosidad sobre su causa.  
+  "/Comenzó de la nada/", escribió.  "/Eso significa que estás buscando una causa que no sea espacial, no temporal y no material porque esas cosas no están disponibles hasta que/ [todo llegó a existir]".  
+  Wallace Cat concluyó que debe haber una causa detrás de la creación.  Entonces también debemos considerar la notable complejidad de todo esto.  
+  Wallace dijo: "/Tenemos un ajuste fino en el universo que está tan finamente ajustado que con la variación más pequeña en las constantes universales, ni siquiera tendrías un universo en el que tengamos vida/.
+  /Ahora, ¿cuáles son las probabilidades de eso, sucediendo por sí solo?/"
+  El ateísmo es una creciente incredulidad en cualquier poder externo a nosotros, pero su premisa se basa en demostrar que todo salió de la nada y que la complejidad surgió del caos.
+  #+Begin_VERSE
+  19 porque lo que de Dios se conoce les es manifiesto, pues Dios se lo manifestó.
+  20 Porque las cosas invisibles de él, su eterno poder y deidad, se hacen claramente visibles desde la creación del mundo, siendo entendidas por medio de las cosas hechas, de modo que no tienen excusa.  
+  21 Pues habiendo conocido a Dios, no le glorificaron como a Dios, ni le dieron gracias, sino que se envanecieron en sus razonamientos, y su necio corazón fue entenebrecido.  
+  22 Profesando ser sabios, se hicieron necios.
+
+  - /Romanos/ 1:19-22
+  #+END_VERSE
+
+
   
+
+
+
+
+
 
 #+HTML: </article>
 #+INCLUDE: "../disquss.inc"

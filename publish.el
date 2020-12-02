@@ -2,10 +2,10 @@
 ;;; Commentary:
 (require 'package)
 (package-initialize)
-(add-to-list 'package-archives '("org" . "https://orgmode.org/elpa/") t)
-(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
-(package-refresh-contents)
-(package-install 'htmlize)
+;; (add-to-list 'package-archives '("org" . "https://orgmode.org/elpa/") t)
+;; (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+;; (package-refresh-contents)
+;; (package-install 'htmlize)
 ;; (package-install 'org-plus-contrib)
 ;; Don't want to invoke insert-shebang locally
 (remove-hook 'find-file-hook 'insert-shebang)
@@ -155,6 +155,8 @@ PROJECT: `posts in this case."
       nil
       )
   )
+
+;; todo: create a function to add text before or after a tag
 
 
 (defun add-class-to-tag (tag class)

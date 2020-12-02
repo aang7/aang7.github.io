@@ -1,5 +1,5 @@
 #+BEGIN_EXPORT html
-<div class='comments uk-card uk-card-default uk-margin uk-margin-left uk-margin-right'>
+<div class='comments uk-card uk-card-default'>
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
