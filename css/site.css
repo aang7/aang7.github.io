@@ -29,6 +29,13 @@ li:not(:last-child) {
     padding-bottom: 20px;
 }
 
+.comments {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* ul { */
 /*     border: 1px solid #f00; */
 /* } */

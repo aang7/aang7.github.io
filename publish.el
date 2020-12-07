@@ -182,12 +182,12 @@ CLASS: Class in string form to add."
 
 	   (if (not does-it-have-class-attribute)
 
-	       (progn
+	       (progn ;; then
 		 (insert (format " class=\"%s\"" class))
 		 (setq does-it-have-class-attribute nil)
 		 )
 
-	     (progn ; else
+	     (progn ;; else
 	       (search-forward "\"")
 	       (backward-char)
 	       (insert (format " %s" class))
@@ -195,6 +195,27 @@ CLASS: Class in string form to add."
 	       ))
 	   )
   
+  )
+
+
+(defun add-content-before-tag (tag content)
+  "You have to write the exact string of the tag to add before it.
+This function only works for html tags, that means that tags has to
+ be wrapped with '<' and '>'
+TAG: Tag to modify.
+CONTENT: string to add."
+  ;; (interactive "sTag:\nsContent:")
+  (goto-char (point-min)) ; go to the start of the file
+  (condition-case nil
+      (progn
+        (search-forward tag nil t) ;; this always will return nil
+	  (search-backward "<" nil t)	  
+	  (print content)
+	  (insert content)	 
+	  (print "salgo")
+	  (indent-for-tab-command)	 
+	  )
+    (error nil))
   )
 
 
@@ -206,8 +227,34 @@ CLASS: Class in string form to add."
       (add-class-to-tag "h2" "uk-heading-bullet")
       (add-class-to-tag "section" "uk-card uk-card-body uk-align-center uk-text-justify")
       (add-class-to-tag "h1" "uk-h2 uk-panel uk-padding uk-background-secondary uk-light uk-margin-left uk-margin-right")
+      (when (and (string-match "posts" filename) (not (string-match "index" filename)))
+	(print "jalaaaaaaaaaaaaaaaSXXXX")
+	(add-content-before-tag "</main" "
+
+<div class='comments uk-card uk-card-default'>
+  <div id='disqus_thread'></div>
+  <script>
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://aang7-github-io.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href='https://disqus.com/?ref_noscript'>comments powered by Disqus.</a></noscript>
+</div>
+"))
+      
       (save-buffer)
-      (kill-buffer))
+      (kill-buffer)
+      ;; (print filename)
+      ;; (print "jalaaaaaaaaaaaaaaa")      
+      )
     file-path))
 
 ;; ends aang stuff

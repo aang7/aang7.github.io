@@ -1,6 +1,6 @@
 #+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
 #+OPTIONS: author:t broken-links:nil c:nil creator:nil
-#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:nil f:nil inline:t num:nil
+#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:nil
 #+OPTIONS: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
 #+OPTIONS: timestamp:t title:t toc:t todo:t |:t
 #+TITLE: ¿Qué es la verdad?
@@ -13,7 +13,13 @@
 #+CREATOR: Emacs 26.3 (Org mode 9.1.9)
 #+SETUPFILE: ../org-template/style.org
 #+HTML: <hr class="uk-divider-icon">
-#+HTML: <div>
+#+HTML: <article>
+
+
+
+
+
+
 
 * Intro
 
@@ -64,10 +70,17 @@ Y quisiera que comenzáramos desde el punto más básico, definir la palabra *ve
   Cuando hago mención de la palabra _*Escrituras*_ me estoy refiriendo precisamente a eso (la biblia).
 
 
+ 
 
 
-   #+HTML: </div>
-   #+INCLUDE: "../disquss.inc"
+
+
+
+
+
+
+
+#+HTML: </article>
 
 
 * Footnotes :noexport:
