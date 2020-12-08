@@ -4,7 +4,7 @@
 #+OPTIONS: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
 #+OPTIONS: timestamp:t title:t toc:t todo:t |:t
 #+TITLE: ¿Qué es la verdad?
-#+DATE: <2020-08-07 Fri>
+#+DATE: <2020-12-07 Mon>
 #+AUTHOR: Abel Güitian
 #+EMAIL: aang.drummer@gmail.com
 #+LANGUAGE: es
@@ -124,7 +124,7 @@ Y quisiera que comenzáramos desde el punto más básico, definir la palabra *ve
   
 * Footnotes
 
-[fn:7] https://www.facebook.com/marcosvidal/posts/10156228780596613
+[fn:7] [[https://www.facebook.com/marcosvidal/posts/10156228780596613][Post de Marcos Vidal]]
 
 [fn:6] https://www.biblegateway.com/verse/es/Juan%2018%3A37
 
