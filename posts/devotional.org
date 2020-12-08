@@ -133,10 +133,5 @@ Did you hear about the little boy with two lines in a play? He was supposed to s
   
 
 
-
-
-
-
 #+HTML: </article>
-#+INCLUDE: "../disquss.inc"
 

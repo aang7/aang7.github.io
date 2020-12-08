@@ -16,12 +16,13 @@ figcaption {
   body #content,
   body #postamble {
     margin: 0 auto;
-    max-width: 1280px !important;
-
+    max-width: 1280px !important;    	
   }
+
 }
 body #content {
-  margin-top: 10px;
+    margin-top: 10px;
+    line-height: 1.2;
 }
 
 
@@ -29,13 +30,22 @@ li:not(:last-child) {
     padding-bottom: 20px;
 }
 
+
 .comments {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
+.footdef {
+    /* make footnote number and content to be on th same line */
+    display: flex;
+}
+
+h2 {
+    text-align: left
+}
 /* ul { */
 /*     border: 1px solid #f00; */
 /* } */
