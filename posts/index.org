@@ -1,5 +1,7 @@
 #+TITLE: Camino la Verdad - Blog
 
+- *[[file:elnombre.org][El Nombre de Dios]]*
+  #+HTML: <p class='pubdate'>by Abel Abner N.G. on Dec 19, 2020.</p>
 - *[[file:verdad.org][¿Qué es la verdad?]]*
   #+HTML: <p class='pubdate'>by Abel Güitian on Dec 07, 2020.</p>
 - *[[file:devotional.org][Daily in His Presence - Devotional by David Jeremiah]]*

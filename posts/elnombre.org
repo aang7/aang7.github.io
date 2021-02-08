@@ -1,0 +1,130 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+OPTIONS: author:t broken-links:nil c:nil creator:nil
+#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:nil
+#+OPTIONS: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+OPTIONS: timestamp:t title:t toc:t todo:t |:t
+#+TITLE: El Nombre de Dios
+#+DATE: <2020-12-19 Sat>
+#+AUTHOR: Abel Abner N.G.
+#+EMAIL: aang.drummer@gmail.com
+#+LANGUAGE: es
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 26.3 (Org mode 9.1.9)
+#+SETUPFILE: ../org-template/style.org
+#+HTML: <hr class="uk-divider-icon">
+
+
+* Intro
+
+  En el post anterior hablamos acerca de la verdad, de lo que esa palabra significa en el hebreo y echamos un pequeño vistazo a su significado más profundo en la persona de Yeshua o Jesús.
+
+  Hablamos también un poco acerca de *Dios*, el Dios de los judíos,  el Dios que está por encima de todas las cosas y de todos los dioses.
+
+  Ahora hablaremos un poco acerca de su nombre y de la importancia que este tiene, o debería tener para todos aquellos que dicen creer en el Dios de la biblia.
+
+  
+* Transliteraciones
+
+  A lo largo de la historia han nacido diversos lenguajes basados, así mismo, en previos idiomas o lenguajes. Por ejemplo el [[https://es.wikipedia.org/wiki/Idioma_espa%25C3%25B1ol][español]] o castellano es una de las lenguas denominadas romances, proviene del [[https://es.wikipedia.org/wiki/Lat%25C3%25ADn#:~:text=El%2520lat%25C3%25ADn%2520es%2520una%2520lengua,cient%25C3%25ADfica%2520hasta%2520el%2520siglo%2520XIX.][latín]], y el latín es otra lengua que cuenta con su propia historia, y se remonta a muchos años antes de la [[https://es.wikipedia.org/wiki/Era_com%25C3%25BAn][era común]].
+
+  Ahora bien, a qué quiero llegar con esto, pues resulta que la biblia también tiene su historia. Aunque podamos hoy en día conseguir una biblia en nuestro idioma (en este caso español) no significa que originalmente haya sido escrita en _ese_ idioma.
+  Y bueno la realidad es que no fue escrita inicialmente en español. Por la evidencia conocemos que hay tres lenguajes en que la biblia fue escrita: hebreo antiguo, arameo y griego koiné.
+
+  Pero que pasa, debido a las traducciones y transliteraciones[fn:1] han habido ciertos cambios o inconsistencias con respecto a lo original, y esas inconsistencias traen consigo errores, lo que hace que muchas veces se pierda el sentido o signficado original de la fuente.
+  
+    #+begin_verse
+    La traducción convierte el significado de un idioma a otro, mientras que la transliteración convierte palabras de una escritura a otra.
+    En lugar de traducir el significado de una palabra, la transliteración usa elementos fonéticos de la palabra original para recrear el sonido en otro idioma sin precisamente capturar el significado original.
+  #+end_verse
+
+  
+* El Nombre
+  
+  Pasemos al tema central, el /nombre de *Dios*/. En primer lugar quiero aclarar que lo siguiente es un intento propio de resumir lo mas que pueda, parte de lo que he recolectado de información en investigación propia y con maestros auxiliares. Debo confesar que es un tema que me emociona demasiado, y espero ser claro y preciso en este resumen.
+
+  
+  # y que la realidad es que hasta cierto punto es un tema un poco controversial debido a varios factores, pero bueno, .
+  
+  En mi contexto de vida, se usan comúnmente  versiones de la biblia, como la reina valera 1960 o sus distintas variaciones, también la nueva versión internacional, nueva traducción viviente, etc.
+  
+  Vamos a contrastar versiones para ver diferencias, utilizaremos Jeremías capítulo 16 verso 21:
+
+  #+begin_verse
+  *Reina Valera 1960(RVR60)*:
+  Por tanto, he aquí les enseñaré esta vez, les haré conocer mi mano y mi poder, y sabrán que mi nombre es Jehová.
+
+  *Nueva Traducción Viviente (NTV)*:
+  El Señor dice:
+  «Ahora les mostraré mi poder;
+  ahora les mostraré mi fuerza.
+  Al fin sabrán y entenderán
+  que yo soy el Señor.
+
+  *Nueva Versión Internacional*:
+  «Por eso, esta vez les daré una lección;
+  les daré a conocer mi mano poderosa.
+  ¡Así sabrán que mi nombre es el Señor!
+  #+end_verse
+  
+
+  Fíjense las diferencias, una de las diferencias que podemos encontrar está en las últimas palabras: "...mi nombre es Jehová.", "...yo soy el Señor.", "...mi nombre es el Señor!", así en ese orden.
+  Otras versiones traducen el _nombre_ como /Yahweh/, otras como /Yahvé/ o /Iavé/, otras /Jehová/, y otras simplemente ponen /Señor/ o /SEÑOR/ haciendo referencia al nombre original. ¿Con cuál versión nos quedamos?
+  Como podemos notar existen ciertas discrepancias y es lo que trataremos de remover el día de hoy. Muchas de estas diferencias suscitaron en conjunto con las transliteraciones y/o traducciones, por eso era necesario definir en el punto anterior, qué es transliteración.
+
+  Desde los tiempos de Adán y Eva se conocía el nombre de /Dios/, incluso en esos tiempos había personas que invocaban su nombre ([[https://www.biblegateway.com/passage/?search=G%25C3%25A9nesis%25204%253A26&version=RVR1960][Génesis 4:26]]).
+  Abraham conocía su nombre ([[https://www.biblegateway.com/passage/?search=G%25C3%25A9nesis+21%253A33&version=RVR1960][Génesis 21:33]]), así mismo Moisés([[https://www.biblegateway.com/passage/?search=%25C3%2589xodo+34%253A5&version=RVR1960][Éxodo 34:5]]). Pero qué pasa, que se fue perdiendo la fonética del nombre, o en otras palabras, la pronunciación real.
+
+  Los israelitas dejaron de pronunciar _el nombre_, debido a lo que entendían con respecto a ese tercer mandamiento: "/...No tomarás el nombre del Señor tu Dios en vano./". Entonces tomaban (y toman aún) el nombre como muy sagrado (y lo es), pero al parecer tenían tal temor o enseñanza heredada, que dejaron de mencionarlo y en su lugar se referían a Dios como */Adonai/* (que significa, Mi Señor o El Señor), o */Hashem/* (significa, el nombre) o */Elohim/* (significa, dios o dioses) o */El Olam/* (significa, el Dios eterno o el eterno).
+
+  La fuente hebrea[fn:2] nos dice lo siguiente:
+  
+  #+begin_verse
+ "וְיָדְע֖וּ כִּֽי־שְׁמִ֥י יְהוָֽה׃"
+ "...y sabrán que mi nombre es *Yehovah*"
+  #+end_verse  
+  
+  El nombre del Creador en hebreo se escribe: *יְהֹוָה*  y se lee como *Yehováh*
+
+  #+ATTR_HTML: :width 200
+  [[../files/Yehovah-300x300.jpg]]
+
+  En el texto hebreo antiguo no existían las vocales, el alefato o alfabeto hebreo está compuesto por 22 caracteres, todas consonantes. Entonces la pregunta ahora es ¿cómo tenemos vocales en el nombre de *Yehováh*? Pues bien, ahí es donde entran los masoretas.
+
+  Los masoretas fue un grupo de eruditos judíos que trabajaron entre los siglos VII y X, y ellos se encargaron de compilar el llamado /texto masorético/, que es el texto más usado para hacer traducciones del TANAK (o comúnmente conocido como antiguo testamento). El término hebreo /masoret/ significa "tradición". Estos hombres se esforzaron por asegurar la transmisión exacta del texto a las generaciones futuras.
+Puesto que el hebreo había sido una lengua que dejó de utilizarse regularmente durante siglos, reemplazada completamente por el arameo como lengua viva, existía el peligro de que su pronunciación y razón de ser se perdiera enteramente con el correr del tiempo.
+Por esa razón los *masoretas* inventaron un sistema de signos que resaltaron las fonéticas y las añadieron a las consonantes hebreas.
+Así se simplificó la lectura de las escrituras hebreas y se garantizó la conservación de la pronunciación.
+
+  El nombre de Dios en el hebreo está conformado por 4 consonantes, comúnmente conocido como /el tetragrámaton/, (del griego τετραγράμμα, que quiere decir simplemente "cuatro letras").
+
+  Estas cuatro letras en el hebreo corresponden a la yōḏ (י), hēi (ה), vāv (ו), hēi (ה) y las pongo en ese orden porque el hebreo se escribe y se lee de derecha a izquierda. Pasándolas al español, esas cuatro consonantes son: *YHVH*. Esta forma de representar /el Nombre/ es la forma mas correcta o cercana que tenemos como referencia al nombre original (en nuestra representación lingüística). 
+  
+  Es común ver también la letra /W/ en lugar de la /V/, viéndose entonces como: _YHWH_, pero en el hebreo ni siquiera existía, ni existe la /W/.
+
+
+  
+  Nehemia Gordon un erudito judío caraíta, quién estudió en la universidad de Jerusalén y ha trabajado con los pergaminos del mar muerto y demás proyectos relacionados a las escrituras hebreas antiguas, ha llegado a la conclusión, debido a la evidencia, que el nombre *Yehováh* es el mas fidedigno referente al nombre de Dios. Se han encontrado mas de mil manuscritos con las 3 vocales haciendo referencia a ese nombre.
+
+  Sin embargo hay también explicaciones que señalan que esas 3 vocales (e,o,a) fueron extraídas del nombre de ADONAY e incrustadas en el Nombre. No entraré en detalles pero tiene su propia explicación racional.
+
+  
+
+#+ATTR_HTML: :width 400
+
+[[../files/theNameofGod.png]]
+
+  
+
+* Conclusión
+
+  A pesar de que hay mucha evidencia para quedarnos con una sola resolución o afirmación acerca del nombre de Dios, la realidad es que no sabemos con exactitud como se pronuncia. ¿Increíble no es cierto? Personalmente creo que el Señor lo ha permitido así porque en verdad su nombre, es precisamente eso, SU NOMBRE. No es cualquier nombre y ese tercer mandamiento dado a los hombres por medio de Moíses, lo reitera.
+Esto fue un resumen, y creo que se quedó muy corto, ni siquiera vimos lo que significa el nombre como tal, lo que nos deja abierta la puerta para poder seguir tratando o comentado en posts futuros esos puntos relacionados que se han omitido.
+
+  
+* Footnotes
+
+[fn:2] Biblia hebrea o Biblia hebraica es un término genérico para referirse a los libros de la Biblia escritos originalmente en hebreo y arameo antiguos.
+
+[fn:1]  La traducción convierte el significado de un idioma a otro, mientras que la transliteración convierte palabras de una escritura a otra.
+    En lugar de traducir el significado de una palabra, la transliteración usa elementos fonéticos de la palabra original para recrear el sonido en otro idioma sin precisamente capturar el significado original.
