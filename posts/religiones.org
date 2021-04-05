@@ -1,0 +1,93 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+OPTIONS: author:t broken-links:nil c:nil creator:nil
+#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+OPTIONS: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+OPTIONS: timestamp:t title:t toc:t todo:t |:t
+#+TITLE: La palabra religión en la Biblia.
+#+DATE: <2021-03-30 Tue>
+#+AUTHOR: Abel Güitian
+#+EMAIL: aang.drummer@gmail.com
+#+LANGUAGE: es
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 26.3 (Org mode 9.1.9)
+#+SETUPFILE: ../org-template/style.org
+#+HTML: <hr class="uk-divider-icon">
+
+¿Cuántas religiones hay en el mundo?
+Según algunas estimaciones, hay aproximadamente 4.200 religiones en el mundo. [fn:2]
+¿Qué significa y qué es la religión?
+Etimológicamente, el vocablo religión proviene del latín /religĭo/, /religiōnis/, que a su vez procede del verbo /religāre/. Este se forma del prefijo re, que indica repetición, y del vocablo ligare, que significa 'ligar o amarrar'.
+La religión es un sistema de creencias, costumbres y símbolos establecidos en torno a una idea de la divinidad o de lo sagrado. [fn:1] 
+
+¿Qué dice la Biblia al respecto?
+
+En el intitulado /nuevo testamento/ encontramos esa palabra en el libro de Hechos(o Actos) 25:19 traducida como religión, cuando Pablo es acusado por  judíos o mejor dicho /por la ley de los judíos/, no por la instrucción(o ley) de Dios. 
+
+ En Hechos 25:8 podemos ver un poco acerca de lo que Pablo estaba pasando:
+#+begin_verse
+...mientras Pablo decía en defensa propia:
+ «No he cometido ningún delito, ni contra *la ley de los judíos*, ni contra el templo, ni contra César».
+#+end_verse
+
+Los judíos o el grupo de judíos de ese entonces tenían por mandamientos, mandamientos o enseñanzas de hombres heredados por generaciones. Incluso hasta la fecha las tienen. Existe algo llamado /Talmud/ o /ley oral/ que básicamente es una obra que recoge principalmente las discusiones rabínicas sobre leyes judías, tradiciones, costumbres, narraciones y dichos, parábolas, historias y leyendas. Es un inmenso código civil y religioso.​
+
+Aclaro que lo anterior descrito de ninguna manera generaliza a los llamados judíos, pero hay grupos de personas inclusive de no tal región que practican tales cosas, y como ese no es el tema central el día de hoy, no profundizaré más por el momento.
+
+
+Volvamos a Hechos 25:19:
+
+#+begin_verse
+...sino que simplemente tenían contra él ciertas cuestiones sobre su propia *religión* (la de _esos_ judíos), y sobre cierto Jesús, ya muerto, de quien Pablo afirmaba que estaba vivo.
+
+- Hechos(Actos) 25:19:
+#+end_verse
+
+En este pasaje, la palabra que traducen como /religión/ hace referencia a la palabra griega /δεισιδαιμονίας/ que se relaciona con la palabra /superstición/, si buscamos su significado veremos que quiere decir:
+	- /el miedo irracional a lo sobrenatural(o alguna deidad), la creencia en creencias no científicas sobre la influencia de los espíritus malignos en nuestras vidas/.
+
+¡Vaya definición! Creo totalmente que describe a las "religiones" como tal. Ese tipo de "religión" básicamente se empeña en querer "agradar" a los "dioses" a base de un miedo o pavor sin sentido. ¿Por qué sin sentido? Porque precisamente no se basan en lo racional o científico, es mas algo /supersticioso/.
+
+
+Bien ya que vimos lo que esa palabra (/δεισιδαιμονίας/) significa, veamos el otro lado de la moneda con la otra palabra que encontramos que también traducen como /religión/ en muchas de las versiones de la biblia, y esa es la palabra en griego /θρησκεία/. Esta palabra la podemos encontrar en el libro de Santiago (James o Jacobo) 1:26-27 y el libro de Hechos(o Actos) 26:5.
+Analizaremos el pasaje en Santiago 1:27.
+
+#+begin_verse
+La *religión* pura y sin mancha delante de Dios el Padre es esta: Visitar a los huérfanos y a las viudas en sus tribulaciones, y guardarse sin mancha del mundo.
+- Santiago 1:27
+#+end_verse
+
+Contrario a la definición anterior de _religión_, la palabra /θρησκεία/ hace referencia a una /observación ceremonial/ o simplemente /ceremonia/,  también lo traducen como /_forma de adoración_/. La palabra puede usarse de forma metafórica como la /_absoluta devoción a algo_/. Por ejemplo: "/el fútbol es una religión(θρησκεία) para él/".
+
+Lo que Santiago está diciendo básicamente es: Si alguien de ustedes se cree devoto en su forma de adoración dentro de las observaciones ceremoniales, y no refrena su lengua(no vive de acuerdo a esa instrucción de la verdad), su "forma de adoración" es vana. Lo que importa es lo que Dios dice que importa, que en este caso es "Visitar a los huérfanos y a las viudas en sus tribulaciones, y guardarse sin mancha del mundo." (amar al prójimo, hacer justicia y misericordia)
+
+Yeshúa (Jesús) no fomentó jamás ninguna religión, incluyendo la religión de aquellos /judíos/ que seguían mandamientos de hombres, poniendo cargas pesadas a los hombres que ni ellos mismos hacían, distorsionando la _verdad_ haciendo que muchos no entraran a ese _reino de los cielos_. Yeshúa les llamo de varias maneras, "hipócritas", "ciegos que guían a otros ciegos", porque precisamente eran eso. Un ciego no puede ver, un ciego está a oscuras, no puede ver la _verdad_ porque la verdad es _luz_.
+
+Es triste y de cierta manera hace enojar, ver como muchas personas tienen una perspectiva errada de las cosas de Dios debido a esos "ciegos" que abundan aun en la actualidad, manchando la visión que las demás personas tienen de la biblia o de Dios.
+
+#+begin_verse
+¡Ay de ustedes, intérpretes e la ley! porque habéis quitado la llave de la ciencia(del conocimiento de Dios); ustedes mismos no entraron, y a los que entraban se lo impedisteis.
+- Lucas 11:52
+
+Mas !ay de vosotros, escribas y fariseos, hipócritas! porque cerráis el reino de los cielos delante de los hombres; pues ni entráis vosotros, ni dejáis entrar a los que están entrando.
+- Mateo 23:13
+#+end_verse
+
+
+Vuelvo a decir que tristemente hay mucha tergiversación de la palabra de Dios y muchas personas viviendo en una religión y no viviendo de acuerdo a la verdad de las Escrituras, es ahí(en las Escrituras) donde encontramos a Yeshúa quien es la luz y esa luz rompe con toda oscuridad, toda.
+
+
+Yeshúa vino a hablar de esa verdad que el Padre le envió a dar testimonio, y acerca de ese _reino de los cielos_, que no consiste en comida o bebida sino en justicia, paz y gozo en el viento Santo de Dios. Él jamás vino a crear ni hablar de una "religión".
+
+
+
+
+
+
+
+* Footnotes
+
+[fn:2] [[https://en.wikipedia.org/wiki/List_of_religions_and_spiritual_traditions][List of religions]]
+
+[fn:1] [[https://www.significados.com/religion/#:~:text=Etimol%25C3%25B3gicamente%252C%2520el%2520vocablo%2520religi%25C3%25B3n%2520proviene,con%2520dios%2520o%2520los%2520dioses.][Definición de religión]]
+

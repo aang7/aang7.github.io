@@ -1,5 +1,7 @@
 #+TITLE: Camino la Verdad - Blog
 
+- *[[file:religiones.org][La palabra religión en la Biblia.]]*
+  #+HTML: <p class='pubdate'>by Abel Güitian on Mar 30, 2021.</p>
 - *[[file:elnombre.org][El Nombre de Dios]]*
   #+HTML: <p class='pubdate'>by Abel Abner N.G. on Dec 19, 2020.</p>
 - *[[file:verdad.org][¿Qué es la verdad?]]*
