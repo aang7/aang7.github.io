@@ -4,9 +4,9 @@
 #+HTML_HEAD:<script src='https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit.min.js'></script>
 #+HTML_HEAD:<script src='https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit-icons.min.js'></script>
 #+HTML_HEAD:<link rel="stylesheet" type="text/css" href="../css/site.css" />
-#+BEGIN_COMMENT
-#+HTML_HEAD:<link href="analytics.html" rel="import" />
-#+END_COMMENT
+#+HTML_HEAD:<link rel='preconnect' href='https://fonts.googleapis.com'>
+#+HTML_HEAD:<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+#+HTML_HEAD:<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans&family=Nunito:wght@300&display=swap" rel="stylesheet">
 #+HTML_HEAD: <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177387524-1"></script>
 #+HTML_HEAD: <script>
 #+HTML_HEAD:   window.dataLayer = window.dataLayer || [];
@@ -15,3 +15,6 @@
 #+HTML_HEAD: 
 #+HTML_HEAD:   gtag('config', 'UA-177387524-1');
 #+HTML_HEAD: </script>
+#+BEGIN_COMMENT
+#+HTML_HEAD:<link href="analytics.html" rel="import" />
+#+END_COMMENT

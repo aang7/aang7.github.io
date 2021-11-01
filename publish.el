@@ -246,13 +246,7 @@ CONTENT: string to add."
   <noscript>Please enable JavaScript to view the <a href='https://disqus.com/?ref_noscript'>comments powered by Disqus.</a></noscript>
 </div>
 </div>
-"))
-      (add-content-before-tag "</head" "
-<link rel='preconnect' href='https://fonts.googleapis.com'>
-<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
-<link href='https://fonts.googleapis.com/css2?family=Montserrat&display=swap' rel='stylesheet'>
-")
-      
+"))      
       (save-buffer)
       (kill-buffer)
       )
