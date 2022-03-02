@@ -95,7 +95,7 @@
   "
 <div class='footer'>
 <hr>
-Copyright © 2020 <a href='mailto:aang.drummer@gmail.com'>Abel Güitian</a> | <a href='https://github.com/aang7/aang7.github.io'>Source</a><br>
+Copyright © 2022 <a href='mailto:aang.drummer@gmail.com'>Abel Güitian</a> | <a href='https://github.com/aang7/aang7.github.io'>Source</a><br>
 Last updated on %C using %c <br>
 </div>")
 

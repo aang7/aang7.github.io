@@ -1,0 +1,286 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+OPTIONS: author:t broken-links:nil c:nil creator:nil
+#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:nil
+#+OPTIONS: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+OPTIONS: timestamp:t title:t toc:t todo:t |:t
+#+TITLE: Ets Khayim: Árbol de la vida
+#+DATE: <2022-03-01 Tue>
+#+AUTHOR: Hebrew Word Lessons
+#+EMAIL: aang@anglap
+#+LANGUAGE: es
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 26.3 (Org mode 9.1.9)
+#+SETUPFILE: ../org-template/style.org
+#+HTML: <hr class="uk-divider-icon">
+
+
+* Ets Khayim: Árbol de la vida
+
+
+  El Árbol de la Vida es un símbolo hacia el que la gente realmente gravita, independientemente de su fe o credo. Es algo que la gente entiende. Los árboles dan vida; su fruto nos sostiene. En la Biblia, el Árbol de la Vida de Edén era la característica principal del jardín, pero no era la única característica del jardín.
+
+
+  *Génesis 2:9*
+
+  #+BEGIN_VERSE
+  YHWH Dios hizo *brotar de la tierra todo árbol* agradable a la vista y bueno para comer; *el árbol de la vida* *[w-ets ha-khayim]* *también estaba en medio del jardín* , y el árbol del conocimiento del bien y del mal.
+  #+END_VERSE
+  
+
+  Aunque la frase /“árbol de la vida”/ solo apareció unas pocas veces en las Escrituras, el concepto era central en la narrativa de la Biblia. La introducción al /Árbol de la Vida/, en Génesis 2, absorbió casi todas las menciones posteriores de árboles con el concepto de dar vida. Las imágenes de semillas, follaje, enredaderas, ramas y brotes, todo apuntaba hacia un crecimiento y una regeneración abundantes y verdes.
+
+  El /Árbol de la Vida/, sin embargo, era más que solo alimento en la tierra. Había una cualidad eterna en ello. Después de que Eva y Adán ignoraron la advertencia de Dios y comieron del otro gran árbol del Edén (el árbol del conocimiento del bien y del mal), el /Árbol de la Vida/ se convirtió en un peligro:
+
+
+
+  *Génesis 3:22-24*
+
+  #+BEGIN_VERSE
+  Entonces YHWH Dios dijo: “He aquí, el hombre es *como uno de nosotros, sabiendo el bien y el mal*; y ahora, que *alargue* su mano, *y tome* fruto también *del árbol de la vida [meh-ets ha-khayim ], y coma, y ​​viva para siempre* ”—por lo cual YHWH Dios lo envió fuera del Jardín del Edén, para cultivar la tierra de la que fue tomado. Así que expulsó al hombre; y al oriente del Jardín del Edén colocó los querubines y la espada llameante que giraba en todas direcciones para guardar *el camino hacia el árbol de la vida [et derek ets ha-khayim]*.
+  #+END_VERSE
+
+
+  
+  En este punto, Eva y Adán ya habían comido del /Árbol del conocimiento del bien y del mal/, por lo que la gran preocupación era que luego comieran el fruto del /Árbol de la Vida/ y vivieran para siempre. Probaron algo que los mataría y se arriesgaron a vivir para siempre en estado de descomposición. ¡Así no era como YHWH quería que Su pueblo viviera! Vivir para siempre en su pecado sería la mayor tragedia... y por eso Dios los sacó del Jardín. 
+
+  
+  Pero Él no los exilió a la nada; YHWH puso en marcha un plan para salvarlos de sus pecados y redimirlos para que pudieran regresar al Jardín, comer del *Árbol de la Vida* y vivir cara a cara con su Creador. 
+
+
+
+  Este hermoso final redentor de la historia fue lo que Juan vio en su visión:
+  
+
+  *Apocalipsis 22:1-5, 12-14, 18-19*
+
+  #+BEGIN_VERSE
+    Y me mostró un río de agua de vida, resplandeciente como cristal, que salía del *trono de Dios y del Cordero*, en medio de su calle. A ambos lados del río estaba el *Árbol de la Vida [griego: xylon zoes], que daba doce clases de frutos, dando su fruto cada mes* ; y las hojas del árbol eran para la sanidad de las naciones. *Ya no habrá maldición alguna* ; y el trono de Dios y del Cordero estará en ella, y sus siervos le servirán; *verán su rostro* , y su nombre estará en sus frentes. Y ya no habrá noche alguna; y no tendrán necesidad de luz de lámpara, ni de luz de sol, porque *el Señor Dios los iluminará; Y reinarán por siempre y para siempre…*
+  #+END_VERSE
+
+
+  
+  Este /Árbol de la Vida/ dio frutos durante todo el año, doce tipos diferentes de frutos en doce meses, continuos, incesantes, productos. Su fruto alimentaba al pueblo y sus hojas curaban a las naciones. Todos los que regresaran al Edén vivirían en la presencia de YHWH, viéndolo cara a cara y serían alimentados de la abundancia del Jardín.
+
+
+  Todos los que se aferraran a la esperanza de YHWH serían recompensados ​​en el Jardín; ya no estaban separados y exiliados del Edén, pero podían entrar por las puertas y comer libremente del /Árbol de la Vida/:
+
+
+  *Apocalipsis 22:12-14*
+
+
+  #+BEGIN_VERSE
+  …He aquí, yo vengo pronto, y mi galardón conmigo, para recompensar a cada uno como merece su obra. Yo soy el Alfa y la Omega, el primero y el último, el principio y el fin”.
+
+Bienaventurados los que lavan sus ropas, para *tener derecho al Árbol de la Vida [griego: xylon tes zoes]* , y para entrar por las puertas de la ciudad…
+  #+END_VERSE
+
+
+
+  El Árbol de la Vida, sin embargo, no era accesible para todos. Hubo quienes no entrarían por las puertas de la ciudad de Dios, y nunca probarían el fruto del /Árbol de la Vida/:
+
+
+
+  *Apocalipsis 22:18-19*
+
+  #+BEGIN_VERSE
+  …Doy testimonio a todo aquel que oye las palabras de la profecía de este libro: si alguno les añadiere, Dios traerá sobre él las plagas que están escritas en este libro; y si alguno quitare de las palabras del libro de esta profecía, Dios quitará su parte *del árbol de la vida [griego: xylou tes zoes]* y de la ciudad santa, que están escritas en este libro.
+  #+END_VERSE
+  
+  
+  #+CAPTION: Imágen de Jeremy Bishop (unsplash.com)
+  #+ATTR_HTML: :align center
+  [[../files/jeremy-bishop-unsplash.jpg]]
+
+
+
+  
+  
+* Nutrición que da vida
+
+  Si miramos la historia de la Biblia de manera holística y simplista, Dios es el Dios de la vida y todos los que se le oponen son presagios de la muerte. El Árbol de la Vida se erige como un símbolo llamativo de una vida feliz. Es vibrante, verde, eterno; tiene fruto que da vida y es eterna proveedora; se regenera con nuevas raíces, hojas, ramas, semillas; siempre encuentra la manera de seguir dando.
+
+  El libro Proverbios usó el simbolismo del /Árbol de la Vida/ para resaltar las cosas que “daban vida”:
+
+  #+begin_center
+  *Proverbios 3:18*
+  
+  #+begin_verse
+  Ella *[la sabiduría]* es un árbol de vida [ets khayim] para los que se aferran a ella, y dichosos son los que se aferran a ella    
+  #+end_verse     
+  #+end_center
+
+  #+begin_center
+  *Proverbios 11:30*
+
+  #+begin_verse
+  El fruto del *justo es un árbol de vida [ets khayim], y el* que es sabio gana almas.
+  #+end_verse
+  #+end_center
+  *Proverbios 13:12*
+
+  #+begin_verse
+  La esperanza diferida enferma el corazón, pero el *deseo cumplido es un árbol de vida [w-ets khayim]*.
+  #+end_verse
+  #+begin_center
+  #+end_center
+  
+
+  #+begin_center
+  *Proverbios 15:4*
+
+  #+begin_verse
+  Una *lengua tranquilizadora es un árbol de vida [ets khayim]*, pero la perversión en ella aplasta el espíritu.
+  #+end_verse
+  #+end_center
+  
+
+  Las cosas buenas, la justicia, las palabras amables, la sabiduría y las aspiraciones cumplidas, eran pequeños árboles de vida que nos ayudarían a florecer y crecer... y nos ayudarían a nutrir a otros y guiarlos al Jardín del Reino de Dios:
+
+
+  *Apocalipsis 2:7*
+
+  [A la iglesia en Éfeso:] 
+  #+begin_verse
+  “El que tiene oído, oiga lo que el Espíritu dice a las iglesias. Al que venciere, le daré de *comer del Árbol de la Vida [griego: xylou tes zoes]*, que está en el Paraíso de Dios”.
+  #+end_verse
+
+
+  El /Árbol de la Vida/ de YHWH estaba en el centro del Jardín Eterno de YHWH. Era una hermosa promesa del cielo para Sus hijos… y es a donde nos llevaría nuestra vida al final de nuestros días terrenales.
+  
+
+* Colgado de un Árbol: Árbol de la muerte
+
+  
+  Pero la Biblia también introdujo un Árbol de la Muerte. La imagen del Gran Árbol en el abundante jardín de YHWH fue yuxtapuesta por la cruda visión del árbol de la ejecución, la cruz. 
+
+  
+  *Deuteronomio 21:22-23*
+
+  #+begin_verse
+    Si un hombre ha cometido *un pecado digno de muerte* , y es *ejecutado, y cuelgas su cuerpo en un árbol [ets]*, no debes dejar el cuerpo en el árbol durante la noche, pero debes asegurarte de enterrarlo ese día, porque cualquiera que es *colgado en un madero [ets]* está bajo maldición de Dios. *No debes profanar la tierra* que YHWH tu Dios te da como herencia.
+  #+end_verse
+
+
+  La muerte no tiene cabida en el Reino de Dios... y la tierra era (y es) en gran medida el dominio de Dios. Un cadáver en un árbol era como una bandera ondeando al viento, anunciando el dominio de la muerte. Pero eso no era aceptable para el Dios de la Vida. No había ningún /Árbol de la Muerte/ en el Jardín y, sin embargo, la cruz, indicada como un árbol, se puede encontrar en numerosos pasajes del Nuevo Testamento.
+
+  
+
+  Pablo citó Deuteronomio 21 (mencionado arriba) cuando escribió esto:
+
+
+  *Gálatas 3:13-14*
+  
+  #+begin_verse
+  *El Mesías nos redimió de la maldición* de la Ley, hecho por nosotros maldición —porque está escrito: “ *Maldito todo el que es colgado en un madero [griego: xylou]* ”— para que en el Mesías Jesús viniera la bendición de Abraham a los gentiles, para que por la fe recibamos la promesa del Espíritu.
+  #+end_verse
+  
+
+  La maldición de la muerte solo podía ser superada por Dios, por lo que envió a Su /descendencia/ (/Su simiente/) a enfrentar la muerte, sentir todo su peso y luego vencerla. El discípulo Pedro lo expresó de esta manera:
+  
+  
+  *1 Pedro 2:24*
+
+  #+begin_verse
+    Él mismo llevó nuestros pecados en *Su cuerpo sobre el madero [griego: xylon]* , para que *muramos al pecado y vivamos a la justicia* . Por Su llaga fuisteis sanados.”
+  #+end_verse
+
+
+  Tres veces en el libro de Hechos, la crucifixión de Yeshua fue descrita como colgada de un árbol ( Hechos 5:30 , Hechos 10:39 y siguientes):
+
+
+
+  *Hechos 13:29-35*
+
+
+  #+begin_verse
+Cuando hubieron cumplido todo lo que estaba escrito acerca de Él [Jesús] , *lo bajaron del árbol [xylou] y lo pusieron en un sepulcro . Pero Dios lo resucitó de entre los muertos*, y durante muchos días fue visto por los que lo habían acompañado desde Galilea hasta Jerusalén. Ahora son sus testigos para nuestro pueblo.
+
+Y ahora *os proclamamos la buena nueva*: Lo que Dios prometió a nuestros padres, Él lo ha cumplido por nosotros, sus hijos, *al resucitar a Jesús*. Como está escrito en el Salmo segundo:
+  
+	'Tú eres mi Hijo; hoy me he convertido en Tu Padre.'
+
+
+De hecho, *Dios lo resucitó de entre los muertos, para nunca ver corrupción* . Como Él ha dicho:
+
+	'Te daré las bendiciones santas y seguras prometidas a David.'
+
+Así también dice en otro Salmo:
+
+	'No permitirás que Tu Santo vea la corrupción.'
+
+  #+end_verse
+
+
+  
+  Yeshúa colgó de una cruz de madera, esencialmente un árbol muerto, y lo mató. Murió, pero no habría decadencia. Derrotaría a la muerte y resucitaría... y liberaría a todos sus seguidores de las cadenas de la muerte que los tenían cautivos. 
+
+  Job, quien sufrió mucho más que la mayoría, se preguntó acerca de esto:
+
+
+  #+begin_center
+  *Job 14:7-14*
+  
+  #+begin_verse
+  “Porque *hay esperanza para un árbol*, cuando es cortado, que *volverá a brotar* , y sus retoños no fallarán.
+
+Aunque sus raíces se envejezcan en la tierra, y *su tronco muera en la tierra* seca, al oler el *agua florecerá y producirá retoños como una planta* .
+
+Pero un hombre muere y yace postrado. *Una persona fallece, ¿y dónde está?*
+
+Como se evapora el agua del mar, y un río se seca y se seca, así *el hombre se acuesta y no se levanta*. Hasta que los cielos ya no existan, Él no despertará ni será despertado de su sueño.
+
+¡Oh, que me escondas en el Seol, que me escondas hasta que tu ira vuelva a ti, que me pongas límite y te acuerdes de mí!
+
+*Si un hombre muere, ¿volverá a vivir?* Todos los días de mi lucha esperaré hasta que llegue mi relevo.
+  #+end_verse
+  
+  #+end_center
+
+
+  Job hizo la pregunta más básica que todo ser humano ha reflexionado. */Si un hombre muere, ¿volverá a vivir?/* YHWH, el Dios de la Vida tenía la respuesta. "¡/Sí/!"
+
+
+* De vuelta al jardín
+
+  Todo el tiempo el plan fue salvar a su pueblo de la muerte. Él enviaría a Su descendencia para traer regeneración a Su pueblo. Yeshua, el Mesías, el Hijo de Dios cumpliría la promesa. No es sorprendente que el Hijo de Dios a menudo sea comparado con plantas que dan vida:
+
+  - /Entonces brotará un retoño del tronco de Isaí, y un retoño de sus raíces dará fruto/ (Isaías 11:1. Véase también Isaías 4:2 , Isaías 11:10 , Jeremías 23:5 , Jeremías 33:15 ).
+  - Yeshúa: /“Yo soy *la vid*, vosotros los sarmientos; el que permanece en mí, y yo en él, *lleva mucho fruto*, porque separados de mí nada podéis hacer”/. (Juan 15:5)
+  - Yeshúa: /“Yo soy la Raíz y el linaje de David”/.  (Apocalipsis 22:16. Ver también Romanos 15:12 )
+
+
+  Ramas, vides, raíces, descendencia, fruto… Yeshua fue dador de vida. Vivimos de Él y, por eso, otros pueden nutrirse de nosotros. Es crucial que no dejemos que el jardín muera. No podemos dejarnos marchitar y decaer; no podemos convertirnos en un jardín sin vida, sin alimentar a nadie. Nuestro trabajo es dar fruto para que otros puedan ser guiados al gran Jardín de Dios que tiene el /Árbol de la Vida/ y que alberga el Reino de YHWH.
+
+
+  El /Árbol de la Vida/ es la más grandiosa de las imágenes... resume la regeneración y la vida eterna. Y llegamos a vivir en un paraíso... un lugar exuberante, floreciente, viridescent de VIDA y vida eterna. El Dios de la Vida nos creó para que pudiéramos vivir verdaderamente con Él. ¡De eso se trata, amigos! Todavía estamos en el camino de la vida que conduce al Reino, y puede parecer un camino muy largo y tortuoso, pero si mantenemos el rumbo llegaremos a Casa con Dios... y será glorioso:
+
+
+  *Apocalipsis 21:3-7*
+
+  #+begin_verse
+  Y oí una gran voz desde el trono, que decía: He aquí, el tabernáculo de Dios está en medio de los pueblos, y *él morará entre ellos* , y ellos serán su pueblo, y *Dios mismo estará entre ellos* , y *quitará toda lágrima de sus ojos*; *y ya no habrá muerte alguna* ; ya no habrá *luto, ni llanto, ni dolor* ; las primeras cosas han pasado.”
+
+  Y el que está sentado en el trono dijo: *He aquí, yo hago nuevas todas las cosas*. Y Él dijo: “Escribe, porque estas palabras son fieles y verdaderas”. Entonces me dijo: “ *Hecho está*. Yo soy el Alfa y la Omega, el principio y el fin. Al que tenga sed , *le daré agua* de la *fuente del agua de la vida, sin costo alguno*. El que venciere heredará estas cosas, y *yo seré su Dios y él será mi hijo*. ”
+
+  #+end_verse
+
+
+  ¡Qué hermosa imagen de la VIDA es esa… espero verte allí algún día!
+
+
+  *La próxima semana*: ¡Levántate!
+
+  PD: si desea profundizar en las imágenes del Árbol de la vida bíblico , le recomiendo la serie de podcasts de 10 partes (¡sí, DIEZ!) sobre el tema de The Bible Project que puede encontrar aquí:
+
+  https://bibleproject.com/podcast/series/tree-life-podcast/
+
+
+
+  
+
+
+  *Acerca de:*\\
+  Esto fue traducido al español de la página https://hebrewwordlessons.com/.\\
+  Si desea ver el post original puedes entrar al siguiente enlace:
+  https://hebrewwordlessons.com/2022/02/27/ets-khayim-tree-of-life/
