@@ -53,7 +53,7 @@ h2 {
 /* } */
 
 ul a{
-    background: linear-gradient(160deg, rgba(2,0,36,1) 0%, rgba(80,80,131,0.7707457983193278) 0%, rgba(0,170,255,1) 100%);
+    background: linear-gradient(190deg, rgba(2,0,36,1) 0%, rgba(80,80,131,0.7707457983193278) 0%, rgba(0,170,255,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: color 1s ease;
@@ -66,6 +66,7 @@ ul a{
   
   /* /\* Animate the text when loading the element. *\/ */
   /*   /\* This animates it on page load and when hovering out. *\/ */
+   /* animation: rainbow-text-simple-animation-rev 0.75s ease forwards; */
 }
 
 ul a:hover {
