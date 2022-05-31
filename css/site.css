@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+
 figcaption {
     text-align: center;
 }
@@ -51,17 +53,86 @@ h2 {
 /* } */
 
 ul a{
-    color: #3f4648;
-    transition: color 0.5s ease;
+    background: linear-gradient(190deg, rgba(2,0,36,1) 0%, rgba(80,80,131,0.7707457983193278) 0%, rgba(0,170,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: color 1s ease;
     text-decoration: none;
+    font-size: 1.10em;
+     /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(80,80,131,0.7707457983193278) 0%, rgba(0,212,255,1) 100%); */
+  
+  /* /\* Animate the text when loading the element. *\/ */
+  /*   /\* This animates it on page load and when hovering out. *\/ */
+   /* animation: rainbow-text-simple-animation-rev 0.75s ease forwards; */
 }
 
 ul a:hover {
-    color: cornflowerblue;
     text-decoration: none;
+    background-color: #f3ec78;
+    background-image: linear-gradient(160deg, rgba(214,207,103,0.78), #af4261);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    animation: rainbow-text-simple-animation 0.5s ease-in forwards;
 }
 
 
 html {
     font-family: 'Nunito', sans-serif;
+}
+
+/** experiments **/
+h1 {
+    margin-top: 0.9em;
+    margin-bottom: 0.9em;
+    border-radius: 1em;
+    color: white;
+}
+
+.title {
+    color: white;
+    font-family: 'Raleway', cursive;    
+}
+
+.main-title {    
+    font-size: 3.5em;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(80,80,131,0.7707457983193278) 0%, rgba(0,212,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* color: black;     */
+}
+
+
+/* Move the background and make it larger. */
+/* Animation shown when hovering over the text. */
+@keyframes rainbow-text-simple-animation {
+    0% {
+        background-size: 100%;
+    }
+    80% {
+        background-size: 650%;
+    }
+    100% {
+        background-size: 650%;
+    }
+}
+
+
+/* Move the background and make it smaller. */
+/* Animation shown when entering the page and after the hover animation. */
+@keyframes rainbow-text-simple-animation-rev {
+    0% {
+        background-size: 650%;
+    }
+    40% {
+        background-size: 650%;
+    }
+    100% {
+        background-size: 100%;
+    }
 }

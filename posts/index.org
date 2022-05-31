@@ -1,14 +1,14 @@
-#+TITLE: Camino la Verdad - Blog
+#+TITLE: Camino la Verdad
 
 - *[[file:elarboldelavida.org][Ets Khayim: Árbol de la vida]]*
-  #+HTML: <p class='pubdate'>by Hebrew Word Lessons on Mar 01, 2022.</p>
+  #+html: <p class='pubdate'>by Hebrew Word Lessons on Mar 01, 2022.</p>
 - *[[file:porque.org][¿Por qué Dios?]]*
-  #+HTML: <p class='pubdate'>by Abel Güitian on Oct 31, 2021.</p>
+  #+html: <p class='pubdate'>by Abel Güitian on Oct 31, 2021.</p>
 - *[[file:religiones.org][La palabra religión en la Biblia.]]*
-  #+HTML: <p class='pubdate'>by Abel Güitian on Mar 30, 2021.</p>
+  #+html: <p class='pubdate'>by Abel Güitian on Mar 30, 2021.</p>
 - *[[file:elnombre.org][El Nombre de Dios]]*
-  #+HTML: <p class='pubdate'>by Abel Abner N.G. on Dec 19, 2020.</p>
+  #+html: <p class='pubdate'>by Abel Abner N.G. on Dec 19, 2020.</p>
 - *[[file:verdad.org][¿Qué es la verdad?]]*
-  #+HTML: <p class='pubdate'>by Abel Güitian on Dec 07, 2020.</p>
+  #+html: <p class='pubdate'>by Abel Güitian on Dec 07, 2020.</p>
 - *[[file:devotional.org][Daily in His Presence - Devotional by David Jeremiah]]*
-  #+HTML: <p class='pubdate'>by aang on Jul 20, 2020.</p>
+  #+html: <p class='pubdate'>by aang on Jul 20, 2020.</p>

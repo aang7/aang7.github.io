@@ -2,11 +2,11 @@
 ;;; Commentary:
 (require 'package)
 (package-initialize)
-;; (add-to-list 'package-archives '("org" . "https://orgmode.org/elpa/") t)
-;; (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+(add-to-list 'package-archives '("elpa" . "https://elpa.gnu.org/packages/") t)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 ;; (package-refresh-contents)
 ;; (package-install 'htmlize)
-;; (package-install 'org-plus-contrib)
+;; (package-install 'org-contrib)
 ;; Don't want to invoke insert-shebang locally
 (remove-hook 'find-file-hook 'insert-shebang)
 
@@ -224,11 +224,14 @@ CONTENT: string to add."
       (wrap-img-tags);; aqui va la funcion de img
       (add-class-to-tag "h2" "uk-heading-divider")
       (add-class-to-tag "section" "uk-margin-remove-bottom uk-margin-remove-top uk-card uk-card-default uk-card-body uk-align-center uk-text-justify")
-      (add-class-to-tag "h1" "uk-h2 uk-panel uk-padding uk-background-secondary uk-light uk-margin-left uk-margin-right")
+      ;; (add-class-to-tag "h1" "uk-h2 uk-panel uk-padding uk-background-secondary uk-light uk-margin-left uk-margin-right")
+      (if (not (string-match "index" filename))
+	  (add-class-to-tag "h1" "uk-panel uk-padding uk-background-secondary uk-light uk-margin-left uk-margin-right")
+	(add-class-to-tag "h1" "main-title"))
       (when (and (string-match "posts" filename) (not (string-match "index" filename)))
 	(add-content-before-tag "</main" "
 <div>
-<div class='comments uk-card uk-card-default uk-margin-auto'>
+<div class='comments uk-card uk-card-default uk-margin-auto uk-margin-top uk-padding'>
   <div id='disqus_thread'></div>
   <script>
     /*var disqus_config = function () {
@@ -265,7 +268,7 @@ CONTENT: string to add."
 	 :auto-sitemap t
 	 :language "es"
 	 :sitemap-filename "index.org"
-	 :sitemap-title "Camino la Verdad - Blog"
+	 :sitemap-title "Camino la Verdad"
 	 :sitemap-format-entry psachin/org-sitemap-format-entry
 	 :sitemap-style list
 	 :sitemap-sort-files anti-chronologically
