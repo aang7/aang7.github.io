@@ -18,3 +18,5 @@
 #+BEGIN_COMMENT
 #+HTML_HEAD:<link href="analytics.html" rel="import" />
 #+END_COMMENT
+
+#+HTML_HEAD: <link rel='stylesheet' type='text/css' href='../css/site.css' />

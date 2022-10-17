@@ -285,7 +285,7 @@ CONTENT: string to add."
 	 :publishing-directory "public/css"
 	 :publishing-function org-publish-attachment
 	 :recursive t)
-	("static-files"
+	("static-files"   
 	 :base-directory "files/"
 	 :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|jpeg"
 	 :publishing-directory "public/files"

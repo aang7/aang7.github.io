@@ -1,0 +1,82 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+options: author:t broken-links:nil c:nil creator:nil
+#+options: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+options: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+options: timestamp:t title:t toc:t todo:t |:t
+#+title: El Espirítu
+#+date: <2022-06-14 Tue>
+#+author: Abel Abner
+#+email: aang.drummer@gmail.com
+#+language: es
+#+select_tags: export
+#+exclude_tags: noexport
+#+creator: Emacs 28.1 (Org mode 9.5.2)
+#+cite_export:
+#+setupfile: ../org-template/style.org
+#+HTML: <hr class="uk-divider-icon">
+
+
+Cuantas veces hemos escuchado la palabra =Espirítu=, la hemos encontrado en programas de televisión, en la radio, en libros, en la calle y en las historias o leyendas que nos contaban cuando eramos chicos. Incluso nosotros mismos la hemos mencionado en alguna platica ocasional, pero ¿qué es lo que entendemos por =espíritu=?
+
+Como todo en este blog, analizaremos esa palabra a la luz de la _biblia_.
+* Etimología
+
+Primero es necesario que veamos la raíz de la palabra =espíritu=.
+
+
+#+begin_verse
+Espíritu proviene del latín _spiritus_, que significa 'respiro' y todo lo relacionado con el elemento aire. Se traduce al griego como _pneûma_, que se relaciona con 'aliento', 'respiración' y 'espíritu'.
+
+Fuente: [[https://www.significados.com/espiritu/][significados.com]]
+#+end_verse
+
+
+En el hebreo esta palabra es [[https://bibliaparalela.com/hebrew/7308.htm][ruáj]], que hace referencia a /mente/, /aliento/, /viento/.
+Es utilizado en pasajes cómo Genésis 1:2.
+
+#+begin_verse
+Y la tierra estaba desordenada y vacía, y las tinieblas estaban sobre la faz del abismo, y el _Espíritu_ (רוּחַ) de Dios se movía sobre la faz de las aguas.
+#+end_verse
+
+Job 33:4:
+
+#+begin_verse
+El **espíritu** (רֽוּחַ־) de Dios me hizo,
+Y el soplo del Omnipotente me dio vida.
+#+end_verse
+
+A lo largo de la Biblia podemos encontrar esta palabra en muchos pasajes.
+La biblia habla de diversidad de espirítus. Tan solo en el siguiente versículo se mencionan 7 espíritus.
+
+#+NAME: Isaías 11:2
+#+begin_verse
+Y reposará sobre él (Jesús / Yeshúa) el *_Espíritu_* de Yehová; *_espíritu_* de sabiduría y de inteligencia, *_espíritu_* de consejo y de poder, *_espíritu_* de conocimiento y de temor de Jehová.
+---Isaías 11:2
+#+end_verse
+
+Los 7 espíritus de Dios mencionados en el verso anterior:
+
+1. Temor
+2. Conocimiento
+3. poder
+4. Consejo
+5. Inteligencia
+6. Sabiduría
+7. Espíritu de YHWH (Dios / Yehová)
+
+   También vemos otro tipo de espíritus, por ejemplo leamos los siguientes pasajes:
+
+   #+begin_verse
+   Él dijo: Yo saldré, y seré _espíritu de mentira_ en boca de todos sus profetas.
+   ---1 Reyes 22:22
+   #+end_verse
+
+   #+begin_verse
+   Si alguno andando con _espíritu de falsedad_ mintiere diciendo: Yo te profetizaré de vino y de sidra; este tal será el profeta de este pueblo.
+   ---Miqueas 2:11
+   #+end_verse
+
+   #+begin_verse
+   Pero había en la sinagoga de ellos un hombre con _espíritu inmundo_, que dio voces..
+   ---Marcos 1:23
+   #+end_verse
